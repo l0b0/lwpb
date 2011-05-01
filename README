@@ -31,7 +31,7 @@ Well, how do I use it?
  - Now you've got it installed you can use it.  For example, to convert every
    OpenOffice document under your home directory in one go, try:
    cd ~
-   find . -iname '*.odt' -exec oodump {} \;
+   find . -iname '*.odt' -exec oodump.sh {} \;
 
 Who do I have to thank?
  - Thank Aaron Swartz, John Gruber, and Yuri Takhteyev. 

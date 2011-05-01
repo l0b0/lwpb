@@ -1,6 +1,6 @@
 # There's actually nothing to build, but I hate deploying shit by hand
 
-install_files=odt2txt oodump
+install_files=odt2txt.py oodump.sh
 install_dir=${HOME}/bin
 
 all: run_tests install
@@ -9,7 +9,7 @@ clean:
 	@rm -f *~ *.bak *.orig *.pyc
 
 run_tests:
-	@python test_python_dependencies
+	@python test_python_dependencies.py
 
 install:
 	mkdir -p ${install_dir}
