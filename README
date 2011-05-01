@@ -32,6 +32,8 @@ Well, how do I use it?
    OpenOffice document under your home directory in one go, try:
    cd ~
    find . -iname '*.odt' -exec oodump.sh {} \;
+ - Alternatively, you can run on a bunch of files, like this:
+   oodump.sh ~/Documents/*.odt
 
 Who do I have to thank?
  - Thank Aaron Swartz, John Gruber, and Yuri Takhteyev. 
