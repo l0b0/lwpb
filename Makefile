@@ -6,12 +6,13 @@ install_dir=${HOME}/bin
 all: run_tests install
 
 clean:
-	@rm -f *~ *.bak *.orig *.pyc
+	rm -f *~ *.bak *.orig *.pyc
 
-run_tests:
-	@python test_python_dependencies.py
+test:
+	python test/dependencies.py
+	test/test_package.py
 
-install:
-	mkdir -p ${install_dir}
-	install -m744 ${install_files} ${install_dir}
-	@echo "You should make sure that ${install_dir} is in your PATH"
+install: test
+	mkdir -p $(install_dir)
+	install -m744 $(install_files) $(install_dir)
+	@echo "You should make sure that $(install_dir) is in your PATH"
