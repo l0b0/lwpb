@@ -2,8 +2,7 @@ Leaving Word Processors Behind
 ------------------------------
 
 What is it?
- - some stuff I've collected to help writers migrate away from using word
-   processors and toward using text editors, such as FocusWriter
+ - A small program to help migrate from WYSIWYG (What You See Is What You Get) editors to plaintext editors. This has the advantage of being able to edit your documents anywhere, for example on your smartphone or on a computer which doesn't have your favorite Open Document Format editor.
 
 What does it do?
  - It will walk over a directory heirarchy and dump every .odt file therein
