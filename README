@@ -9,24 +9,24 @@ What does it do?
  - It will walk over a directory heirarchy and dump every .odt file therein
    to .txt in MarkDown syntax.
  - Eventually it should also do RTF and other document formats supported by
-   OpenOffice.  Even more eventually, it should do formats supported by 
+   OpenOffice.  Even more eventually, it should do formats supported by
    AbiWord or other scriptable open source word processors too.
- - Eventually it should have Nautilus menu items to let you right-click on a 
+ - Eventually it should have Nautilus menu items to let you right-click on a
    file and dump it.
 
 Why do I want it?
- - I don't know.  Maybe you don't.  But I did, so I cobbled together the 
+ - I don't know.  Maybe you don't.  But I did, so I cobbled together the
    pieces and I didn't want to lose my work so I put it in this repository.
    Here you go.
 
 Can I use it?
- - You'll need to have the Python libraries elementtree and markdown, a 
-   bourne-compatible shell, and make.  If you know what that means, or 
+ - You'll need to have the Python libraries elementtree and markdown, a
+   bourne-compatible shell, and make.  If you know what that means, or
    know someone who does, then you can probably use it.
 
 Well, how do I use it?
  - Get software.  Try checking out the git repository.
- - make all # will test that you have the python dependencies and install 
+ - make all # will test that you have the python dependencies and install
    to ~/bin
  - Now you've got it installed you can use it.  For example, to convert every
    OpenOffice document under your home directory in one go, try:
@@ -36,4 +36,6 @@ Well, how do I use it?
    oodump.sh ~/Documents/*.odt
 
 Who do I have to thank?
- - Thank Aaron Swartz, John Gruber, and Yuri Takhteyev. 
+ - Aaron Swartz, John Gruber, and Yuri Takhteyev created the Open Document Format to text converter, and released it under a GPLv2 license.
+ - Joe Blaylock created a wrapper script to convert a whole directory tree in a single operation.
+ - Victor Engmark hasn't done anything useful yet, but hopes to add some automated testing, command-line options, and perhaps a Nautilus plugin.
