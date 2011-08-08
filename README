@@ -35,6 +35,10 @@ Well, how do I use it?
  - Alternatively, you can run on a bunch of files, like this:
    oodump.sh ~/Documents/*.odt
 
+It doesn't work!
+ - Please check if the issue has been reported before <https://github.com/l0b0/lwpb/issues>, and if so, whether you can add more information to speed up the fix. Be warned that it could take a while, since this is one of many hobby projects.
+ - If you're a programmer you're welcome to either submit a patch or fork the project to fix it.
+
 Who do I have to thank?
  - Aaron Swartz, John Gruber, and Yuri Takhteyev created the Open Document Format to text converter, and released it under a GPLv2 license.
  - Joe Blaylock created a wrapper script to convert a whole directory tree in a single operation.
